@@ -1,4 +1,4 @@
-// hidedll.cpp : 定义 DLL 应用程序的导出函数。
+// hidedll.cpp 隐藏方式:断链模式
 
 #include <Windows.h>
 #include <winnt.h>
