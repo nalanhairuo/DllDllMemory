@@ -1,9 +1,11 @@
 
 #include <stdio.h>
 #include <windows.h>
-typedef bool(*testFunction)();
-
+typedef int(*testFunction)();
 testFunction dllFunction;
+
+typedef HMODULE(*LoadInjectModule)();
+LoadInjectModule dllFunction2;
 
 int main(void)
 {
@@ -14,6 +16,11 @@ int main(void)
         printf("load dll failed!");
     }
 
+    dllFunction = (testFunction)GetProcAddress(his, "example");
+    dllFunction();
+
+    dllFunction2 = (LoadInjectModule)GetProcAddress(his, "LoadInjectModule");
+    dllFunction2();
 
     FreeLibrary(his);                              // Õ∑≈dll
     system("pause");

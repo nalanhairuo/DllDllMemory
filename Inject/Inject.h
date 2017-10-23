@@ -16,7 +16,6 @@ extern "C" {
 #endif
 //######################## 常规通用函数 #################################
 
-DLL_API void HelloDll(void);
 class DLL_API CInject
 {
   public:

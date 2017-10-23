@@ -1,1 +1,7 @@
-﻿
+﻿  Inject.cpp
+    正在创建库 C:\LoadDll\Release\Inject.lib 和对象 C:\LoadDll\Release\Inject.exp
+  正在生成代码
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Inject.vcxproj -> C:\LoadDll\Release\Inject.dll
+  Inject.vcxproj -> C:\LoadDll\Release\Inject.pdb (Full PDB)

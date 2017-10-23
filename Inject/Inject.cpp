@@ -8,6 +8,7 @@ DLL_API int nInject = 0;
 // 这是导出函数的一个示例。
 DLL_API int fnInject(void)
 {
+    printf("inject.dll导出函数加载\n");
     return 42;
 }
 

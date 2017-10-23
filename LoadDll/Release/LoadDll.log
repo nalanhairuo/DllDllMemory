@@ -1,1 +1,8 @@
-﻿
+﻿  LoadDll.cpp
+  MemoryModule.c
+    正在创建库 C:\LoadDll\Release\LoadDll.lib 和对象 C:\LoadDll\Release\LoadDll.exp
+  正在生成代码
+  All 33 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  LoadDll.vcxproj -> C:\LoadDll\Release\LoadDll.dll
+  LoadDll.vcxproj -> C:\LoadDll\Release\LoadDll.pdb (Full PDB)

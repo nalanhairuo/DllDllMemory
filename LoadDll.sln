@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inject", "Inject\Inject.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDll", "TestDll\TestDll.vcxproj", "{4AE1BD77-A7ED-4D6B-ACC4-A146169084D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modbus", "libmodbus\modbus.vcxproj", "{498E0845-C7F4-438B-8EDE-EF7FC9A74430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{4AE1BD77-A7ED-4D6B-ACC4-A146169084D9}.Release|x64.Build.0 = Release|x64
 		{4AE1BD77-A7ED-4D6B-ACC4-A146169084D9}.Release|x86.ActiveCfg = Release|Win32
 		{4AE1BD77-A7ED-4D6B-ACC4-A146169084D9}.Release|x86.Build.0 = Release|Win32
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Debug|x64.ActiveCfg = Debug|x64
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Debug|x64.Build.0 = Debug|x64
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Debug|x86.ActiveCfg = Debug|Win32
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Debug|x86.Build.0 = Debug|Win32
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Release|x64.ActiveCfg = Release|x64
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Release|x64.Build.0 = Release|x64
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Release|x86.ActiveCfg = Release|Win32
+		{498E0845-C7F4-438B-8EDE-EF7FC9A74430}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
